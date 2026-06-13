@@ -43,13 +43,27 @@
    A. Univariate Analysis
       - Distribution
       - Frequency
-      - Summary statistics
+      - Summary statistics	
 
    B. Bivariate Analysis
       - Relationship between two variables
 
    C. Multivariate Analysis
       - Multiple variable interactions
+
+  ( Univariate
+      -> Histograms
+      -> Boxplots
+      -> Countplots
+
+   Bivariate
+      -> Crossplot + Countplots (categorical vs categorical)
+      -> Boxplot (numeric vs categorical)
+      -> Scatterplots (numeric vs numeric)
+
+   Multivariate
+      -> Pairplots
+      -> Heatmaps )
 
    D. Correlation Analysis
       - Correlation matrix
@@ -64,7 +78,7 @@
    - Pairplots
    - Heatmaps
 
-   (Every graph should answer a question.)
+   (Every graph should answer a question.) -> ("If someone reads only 5 charts from my project, which 5 charts should they see?")
 
 
 7. Key Findings
@@ -111,3 +125,25 @@ Feature Selection
 Better Model
    ↓
 Compare Results
+
+
+1. Univariate Analysis
+
+Study each variable individually.
+
+Numerical Features
+
+Check:
+
+Distribution (histogram/KDE)
+Mean, median
+Skewness
+Outliers (boxplot)
+
+Categorical Features
+
+Check:
+
+Value counts
+Percentage distribution
+Countplots
